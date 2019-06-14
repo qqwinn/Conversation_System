@@ -3,7 +3,7 @@
 
 #### 功能介绍：
 
-
+    针对谈话场景，完成多路视频与声音的采集，实时播放封装与存储。<br>
 
 #### 开发环境：
 
@@ -17,6 +17,6 @@
 
 >> Output_Play.h、Output_Play.cpp：打开多路摄像头，合并在同一图片上显示，并能根据鼠标事件切换画面；<br>
 
->> FFmpeg_Muxer.h、FFmpeg_Muxer.cpp：FFmpeg采集音频，并与画面实时封装，保存为MP4文件；<br>
+>> FFmpeg_Muxer.h、FFmpeg_Muxer.cpp：FFmpeg采集音频，并与合并后的画面实时封装，保存为MP4文件；<br>
 
 >> video_parameter.ini：更改参数的配置文件；<br>
