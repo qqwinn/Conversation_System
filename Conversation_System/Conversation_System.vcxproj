@@ -71,8 +71,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>..\FFmpeg\include;..\OpenCV\build\include;..\OpenCV\build\include\opencv;..\OpenCV\build\include\opencv2;$(IncludePath)</IncludePath>
-    <LibraryPath>..\OpenCV\build\x64\vc12\lib;..\FFmpeg\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>..\FFmpeg\include;..\OpenCV\include;..\OpenCV\include\opencv;..\OpenCV\include\opencv2;$(IncludePath)</IncludePath>
+    <LibraryPath>..\OpenCV\x64\lib;..\FFmpeg\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
