@@ -1,0 +1,86 @@
+﻿生成启动时间为 2019/6/14 20:38:30。
+     1>项目“C:\Users\Administrator\Desktop\Conversation_System\Conversation_System\Conversation_System\Conversation_System.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\VC\VC\bin\x86_amd64\CL.exe /c /I"E:\VLD\Visual Leak Detector\include" /Zi /nologo /W3 /WX- /sdl- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt FFmpeg_Capture.cpp FFmpeg_Muxer.cpp Output_Play.cpp Queue.cpp
+         Queue.cpp
+     1>C:\Users\Administrator\Desktop\Conversation_System\Conversation_System\OpenCV\build\include\opencv2/core/mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\Users\Administrator\Desktop\Conversation_System\Conversation_System\OpenCV\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\Users\Administrator\Desktop\Conversation_System\Conversation_System\OpenCV\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         Output_Play.cpp
+     1>C:\Users\Administrator\Desktop\Conversation_System\Conversation_System\OpenCV\build\include\opencv2/core/mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\Users\Administrator\Desktop\Conversation_System\Conversation_System\OpenCV\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\Users\Administrator\Desktop\Conversation_System\Conversation_System\OpenCV\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\administrator\desktop\conversation_system\conversation_system\conversation_system\FFmpeg_Capture.h(78): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VC\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\users\administrator\desktop\conversation_system\conversation_system\conversation_system\FFmpeg_Capture.h(80): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VC\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\users\administrator\desktop\conversation_system\conversation_system\conversation_system\FFmpeg_Capture.h(82): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VC\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\users\administrator\desktop\conversation_system\conversation_system\conversation_system\FFmpeg_Capture.h(92): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VC\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\users\administrator\desktop\conversation_system\conversation_system\conversation_system\FFmpeg_Capture.h(94): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VC\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\users\administrator\desktop\conversation_system\conversation_system\conversation_system\FFmpeg_Capture.h(96): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VC\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>Output_Play.cpp(141): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VC\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>Output_Play.cpp(283): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         FFmpeg_Muxer.cpp
+     1>C:\Users\Administrator\Desktop\Conversation_System\Conversation_System\OpenCV\build\include\opencv2/core/mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\Users\Administrator\Desktop\Conversation_System\Conversation_System\OpenCV\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\Users\Administrator\Desktop\Conversation_System\Conversation_System\OpenCV\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>FFmpeg_Muxer.cpp(100): warning C4018: “<”: 有符号/无符号不匹配
+     1>FFmpeg_Muxer.cpp(262): warning C4996: 'avpicture_get_size': 被声明为已否决
+                 C:\Users\Administrator\Desktop\Conversation_System\Conversation_System\FFmpeg\include\libavcodec/avcodec.h(4898) : 参见“avpicture_get_size”的声明
+     1>FFmpeg_Muxer.cpp(264): warning C4996: 'avpicture_fill': 被声明为已否决
+                 C:\Users\Administrator\Desktop\Conversation_System\Conversation_System\FFmpeg\include\libavcodec/avcodec.h(4883) : 参见“avpicture_fill”的声明
+     1>FFmpeg_Muxer.cpp(339): warning C4244: “初始化”: 从“double”转换到“int64_t”，可能丢失数据
+     1>FFmpeg_Muxer.cpp(351): warning C4244: “参数”: 从“int64_t”转换到“unsigned int”，可能丢失数据
+     1>FFmpeg_Muxer.cpp(358): warning C4996: 'av_free_packet': 被声明为已否决
+                 C:\Users\Administrator\Desktop\Conversation_System\Conversation_System\FFmpeg\include\libavcodec/avcodec.h(4040) : 参见“av_free_packet”的声明
+     1>FFmpeg_Muxer.cpp(465): warning C4244: “初始化”: 从“double”转换到“int64_t”，可能丢失数据
+     1>FFmpeg_Muxer.cpp(477): warning C4244: “参数”: 从“int64_t”转换到“unsigned int”，可能丢失数据
+     1>FFmpeg_Muxer.cpp(484): warning C4996: 'av_free_packet': 被声明为已否决
+                 C:\Users\Administrator\Desktop\Conversation_System\Conversation_System\FFmpeg\include\libavcodec/avcodec.h(4040) : 参见“av_free_packet”的声明
+     1>FFmpeg_Muxer.cpp(443): warning C4101: “output_packet2”: 未引用的局部变量
+     1>FFmpeg_Muxer.cpp(517): warning C4996: 'av_free_packet': 被声明为已否决
+                 C:\Users\Administrator\Desktop\Conversation_System\Conversation_System\FFmpeg\include\libavcodec/avcodec.h(4040) : 参见“av_free_packet”的声明
+     1>FFmpeg_Muxer.cpp(518): warning C4996: 'av_free_packet': 被声明为已否决
+                 C:\Users\Administrator\Desktop\Conversation_System\Conversation_System\FFmpeg\include\libavcodec/avcodec.h(4040) : 参见“av_free_packet”的声明
+         FFmpeg_Capture.cpp
+     1>C:\Users\Administrator\Desktop\Conversation_System\Conversation_System\OpenCV\build\include\opencv2/core/mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\Users\Administrator\Desktop\Conversation_System\Conversation_System\OpenCV\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\Users\Administrator\Desktop\Conversation_System\Conversation_System\OpenCV\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\administrator\desktop\conversation_system\conversation_system\conversation_system\FFmpeg_Capture.h(78): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VC\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\users\administrator\desktop\conversation_system\conversation_system\conversation_system\FFmpeg_Capture.h(80): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VC\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\users\administrator\desktop\conversation_system\conversation_system\conversation_system\FFmpeg_Capture.h(82): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VC\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\users\administrator\desktop\conversation_system\conversation_system\conversation_system\FFmpeg_Capture.h(92): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VC\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\users\administrator\desktop\conversation_system\conversation_system\conversation_system\FFmpeg_Capture.h(94): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VC\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\users\administrator\desktop\conversation_system\conversation_system\conversation_system\FFmpeg_Capture.h(96): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VC\VC\include\string.h(112) : 参见“strcpy”的声明
+     1>FFmpeg_Capture.cpp(80): warning C4018: “<”: 有符号/无符号不匹配
+     1>FFmpeg_Capture.cpp(155): warning C4996: 'avpicture_get_size': 被声明为已否决
+                 C:\Users\Administrator\Desktop\Conversation_System\Conversation_System\FFmpeg\include\libavcodec/avcodec.h(4898) : 参见“avpicture_get_size”的声明
+     1>FFmpeg_Capture.cpp(157): warning C4996: 'avpicture_fill': 被声明为已否决
+                 C:\Users\Administrator\Desktop\Conversation_System\Conversation_System\FFmpeg\include\libavcodec/avcodec.h(4883) : 参见“avpicture_fill”的声明
+     1>FFmpeg_Capture.cpp(191): warning C4996: 'av_free_packet': 被声明为已否决
+                 C:\Users\Administrator\Desktop\Conversation_System\Conversation_System\FFmpeg\include\libavcodec/avcodec.h(4040) : 参见“av_free_packet”的声明
+     1>FFmpeg_Capture.cpp(128): warning C4101: “end”: 未引用的局部变量
+     1>FFmpeg_Capture.cpp(128): warning C4101: “start”: 未引用的局部变量
+         正在生成代码...
+       Link:
+         D:\VC\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Desktop\Conversation_System\Conversation_System\x64\Debug\Conversation_System.exe" /INCREMENTAL /NOLOGO /LIBPATH:"E:\VLD\Visual Leak Detector\lib\Win64" opencv_ts300d.lib opencv_world300d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opencv_ts300.lib opencv_world300.lib opencv_world300d.lib opencv_ts300d.lib avcodec.lib avdevice.lib avfilter.lib avformat.lib avutil.lib postproc.lib swresample.lib swscale.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Administrator\Desktop\Conversation_System\Conversation_System\x64\Debug\Conversation_System.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Desktop\Conversation_System\Conversation_System\x64\Debug\Conversation_System.lib" /MACHINE:X64 x64\Debug\FFmpeg_Capture.obj
+         x64\Debug\FFmpeg_Muxer.obj
+         x64\Debug\Output_Play.obj
+         x64\Debug\Queue.obj
+         Conversation_System.vcxproj -> C:\Users\Administrator\Desktop\Conversation_System\Conversation_System\x64\Debug\Conversation_System.exe
+     1>已完成生成项目“C:\Users\Administrator\Desktop\Conversation_System\Conversation_System\Conversation_System\Conversation_System.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.49
